@@ -31,8 +31,8 @@ sudo /Applications/XAMPP/xamppfiles/xampp start
 
 ### 2. Copy Project to htdocs
 
-**macOS:** `/Applications/XAMPP/xamppfiles/htdocs/IBL-FLIGHT-LAB-4-AND-5`
-**Windows:** `C:\xampp\htdocs\IBL-FLIGHT-LAB-4-AND-5`
+**macOS:** `/Applications/XAMPP/xamppfiles/htdocs/IBL-FLIGHT-LAB-Complete-lab-submission`
+**Windows:** `C:\xampp\htdocs\IBL-FLIGHT-LAB-Complete-lab-submission`
 
 ### 3. Create Database
 
@@ -53,16 +53,16 @@ $this->password = "";  // Empty for XAMPP
 
 ### 5. Access Application
 
-- **Web App:** http://localhost/IBL-FLIGHT-LAB-4-AND-5/
-- **Dashboard:** http://localhost/IBL-FLIGHT-LAB-4-AND-5/dashboard.php
-- **REST API:** http://localhost/IBL-FLIGHT-LAB-4-AND-5/api/airlines
+- **Web App:** http://localhost/IBL-FLIGHT-LAB-Complete-lab-submission/
+- **Dashboard:** http://localhost/IBL-FLIGHT-LAB-Complete-lab-submission/dashboard.php
+- **REST API:** http://localhost/IBL-FLIGHT-LAB-Complete-lab-submission/api/airlines
 
 ---
 
 ## Project Structure
 
 ```
-IBL-FLIGHT-LAB-4-AND-5/
+IBL-FLIGHT-LAB-Complete-lab-submission/
 ├── database/db.php          # Database connection
 ├── models/                  # Data models (Users, Cities, Countries, Airlines)
 ├── controllers/             # Business logic & CRUD operations
